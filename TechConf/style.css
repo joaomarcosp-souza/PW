@@ -24,26 +24,30 @@ img {
 }
 
 .buttons {
+    color: #fff;
     padding: 10px;
     border: 0;
     border-radius: 5px;
-    background: #3369fd;
+    background: #1900ff;
+    cursor: pointer;
 }
 
 .buttons:hover {
-    cursor: pointer;
+    background: #1900ff81;
 }
 
 .cards {
-    cursor: pointer;
+    gap: 15px;
     display: flex;
     align-items: flex-start;
+    flex-wrap: wrap;
     justify-content: space-evenly;
 }
 
 .card-info {
+    cursor: pointer;
+    background-color: #5a575748;
     padding: 15px;
-    border: 0.5px solid #fff;
     text-align: center;
 }
 
