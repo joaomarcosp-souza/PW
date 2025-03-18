@@ -18,8 +18,8 @@ img {
     background-color: #3369fd;
 }
 
-.text-card {
-    padding: 15px;
+.info-banner {
+    margin-bottom: 25px;
     text-align: center;
 }
 
@@ -28,19 +28,22 @@ img {
     border: 0;
     border-radius: 5px;
     background: #3369fd;
+}
+
+.buttons:hover {
     cursor: pointer;
 }
 
-.buttons:hover {}
-
 .cards {
+    cursor: pointer;
     display: flex;
-    gap: 10px;
-    align-items: flex-end;
-    justify-content: space-between;
+    align-items: flex-start;
+    justify-content: space-evenly;
 }
 
 .card-info {
+    padding: 15px;
+    border: 0.5px solid #fff;
     text-align: center;
 }
 
